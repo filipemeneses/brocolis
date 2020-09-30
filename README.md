@@ -4,13 +4,16 @@
 
 ## Install
 
-> npm -S brocolis
+```bash
+yarn add brocolis
+// npm i -S brocolis
+```
 
 ## Usage
 
 ```js
 const brocolis = require('brocolis')
-const sigmoid = require('brocolis/activationFunctions/sigmoid')
+const sigmoid = require('brocolis/lib/activationFunctions/sigmoid')
 
 brocolis({
   activationFunction: sigmoid
